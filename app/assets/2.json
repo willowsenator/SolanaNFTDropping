@@ -1,0 +1,17 @@
+{
+  "name": "Eye",
+  "symbol": "EYE",
+  "image": "2.png",
+  "properties": {
+    "files": [{
+      "uri": "2.png",
+      "type": "image/png"
+    }],
+    "creators": [
+      {
+        "address": "BJsMGMd1MZuD89podNPzneVXh8ejtFZpz2mHaT8iHJyh",
+        "share": 100
+      }
+    ]
+  }
+}

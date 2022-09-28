@@ -1,0 +1,29 @@
+{
+  "program": {
+    "uuid": "BJ3YBt",
+    "candyMachine": "BJ3YBtESsonNUsb9svBipntLTboUzR2HFcUYUuXH5tqD",
+    "collection": "2gDbWS2PP71LZDhvuysK5yyEQocdMYB6TMRgWtPV3AM5"
+  },
+  "items": {
+    "0": {
+      "link": "https://arweave.net/itxOuy_eK_CkKkuvRAz9zwApy2anZmoqf6eb4p0k2RI",
+      "name": "Boy",
+      "onChain": true,
+      "verifyRun": true
+    },
+    "1": {
+      "link": "https://arweave.net/O6fxGdaCQ3nk2a5XVnwgdl2YAB4xrrug0YmCuPZV3QY",
+      "name": "Girl with flowers",
+      "onChain": true,
+      "verifyRun": true
+    },
+    "2": {
+      "link": "https://arweave.net/YVSFrF0-3r7bWXkgMniwdtt_oFqPZCN6JTOYnYKcD2A",
+      "name": "Eye",
+      "onChain": true,
+      "verifyRun": true
+    }
+  },
+  "env": "devnet",
+  "cacheName": "temp"
+}

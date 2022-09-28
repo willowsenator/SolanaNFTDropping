@@ -1,0 +1,17 @@
+{
+  "name": "Boy",
+  "symbol": "BOY",
+  "image": "0.png",
+  "properties": {
+    "files": [{
+      "uri": "0.png",
+      "type": "image/png"
+    }],
+    "creators": [
+      {
+        "address": "BJsMGMd1MZuD89podNPzneVXh8ejtFZpz2mHaT8iHJyh",
+        "share": 100
+      }
+    ]
+  }
+}
