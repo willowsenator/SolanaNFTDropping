@@ -17,7 +17,7 @@ const App = () => {
 					console.log("Phantom Wallet detected!!!");
 					const response = await solana.connect({onlyIfTrusted: true});
 					console.log('Connected with Public key: ', response.publicKey.toString());
-					setWalletAddress(response.publicKey.toString());
+					setWalletAddress(response);
 				}
 				else{
 					alert("Solana Wallet not found!! Get Phantom Wallet!!! ");
@@ -34,7 +34,7 @@ const App = () => {
 		if(solana){
 			const response = await solana.connect();
 			console.log('Connected with Public key: ', response.publicKey.toString());
-			setWalletAddress(response.publicKey.toString());
+			setWalletAddress(response);
 		}
 	}
 

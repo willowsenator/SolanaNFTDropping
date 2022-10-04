@@ -143,7 +143,7 @@ const CandyMachine = ({walletAddress}) => {
 
     const mintToken = async () => {
         const mint = web3.Keypair.generate();
-
+        
         const userTokenAccountAddress = (
             await getAtaForMint(mint.publicKey, walletAddress.publicKey)
         )[0];
@@ -338,6 +338,7 @@ const CandyMachine = ({walletAddress}) => {
         );
 
         try {
+            console.log(candyMachine.program.provider.connection, candyMachine.program.provider.wallet);
             return (
                 await sendTransactions(
                     candyMachine.program.provider.connection,
